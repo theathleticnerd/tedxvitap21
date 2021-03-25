@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+
+.cardcontainer {
+  margin: 100px;
+}
+.main {
+  background-color: black;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  height: 100px;
+}
+.main p {
+  padding: 10px;
+  color: #fff;
+}
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+}
