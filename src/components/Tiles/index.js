@@ -21,11 +21,21 @@ const Tile = () => {
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 5</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 7</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box blackbox">Box 8</div>
           <div class="box blackbox">Box 9</div>
         </div>
@@ -35,15 +45,30 @@ const Tile = () => {
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 4</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 6</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 8</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box blackbox">Box 9</div>
         </div>
         <br />
@@ -53,19 +78,39 @@ const Tile = () => {
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 2</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 4</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 6</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 8</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box blackbox">Box 9</div>
         </div>
         <div class="wrapper">
@@ -73,37 +118,77 @@ const Tile = () => {
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 3</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 5</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 7</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 9</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
         </div>
         <div class="wrapper">
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 2</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 4</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 6</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 8</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box blackbox">Box 9</div>
         </div>
         <div class="wrapper">
@@ -113,15 +198,30 @@ const Tile = () => {
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 5</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 7</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
-          <div class="box redbox">Box 9</div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Kakashi Hatake</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
         </div>
         <br />
         <br />
