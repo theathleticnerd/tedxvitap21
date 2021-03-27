@@ -14,6 +14,7 @@ import Ticket from "../components/Ticket";
 
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import Tiles from "../components/Tiles";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,9 +29,9 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
       <Timer />
-      <Products heading="Speakers for the Day" data={productData} />
       <Feature />
-      <Products heading="Speakers for the Day" data={productDataTwo} />
+      <Tiles />
+
       <Ticket />
 
       <About />
