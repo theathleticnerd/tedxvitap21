@@ -19,7 +19,7 @@ function About() {
         </div>
         <div className="right1">
           <h2 style={{ fontFamily: "Josefin Sans" }}>About TEDx</h2>
-          <h5> x = independently organized event</h5>
+          <h5 style={{ fontFamily: "Josefin Sans" }}> x = independently organized event</h5>
         </div>
       </div>
       <div className="about_inner_container">
