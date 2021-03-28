@@ -1,38 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap");
-
-.about_container {
-  margin-top: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap');
+.about_inner_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    padding-top: 10vw;
+    height: 100%;
+    width: 100%;
+    color: white;
 }
-.about_inner_container {
-  background-color: rgba(0, 0, 0, 1);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 5px;
-  padding-top: 130px;
-  height: 100%;
-  width: 100%;
+.left1{
+    flex: 0.65;
 }
-.left1 {
-  flex: 0.65;
-  font-size: 20px;
-  line-height: 40px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
+.left1 p{
+    flex: 0.65;
+    font-size: 1.4vw;
+    line-height: 2.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 }
-.right1 {
-  font-family: "Josefin Sans", sans-serif;
+.right1{
+    font-family: 'Josefin Sans', sans-serif;
 }
-.right1 h1 {
-  font-size: 200px;
-  display: contents;
+.right1 h1{
+    font-size: 12vw;
+    display: contents;
 }
-.right1 h2 {
-  font-size: 100px;
-  color: #e62b1e;
+.right1 h2{
+    font-size: 6vw;
+    color: #E62B1E;
 }
-.right1 h5 {
-  margin-top: 60px;
-  font-size: 30px;
+.right1 h5{
+    margin-top: 2vw;
+    font-size: 2.2vw;
 }
