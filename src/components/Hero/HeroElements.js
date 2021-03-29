@@ -7,6 +7,10 @@ export const HeroContainer = styled.div`
   height: 110vh;
   background-position: center;
   background-size: cover;
+
+  @media screen and (max-width: 650px) {
+    background-position: 65%;
+  }
 `;
 
 export const HeroContent = styled.div`
