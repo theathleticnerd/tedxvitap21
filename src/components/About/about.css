@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap");
 .about_inner_container {
   margin: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 4vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 0px;
-  padding-top: 10vw;
+  padding-top: 5vw;
   height: 100%;
   width: 100%;
   color: white;
 }
 .left1 {
-  flex: 0.65;
+  flex: 0.7;
 }
 .left1 p {
   font-size: 1.8vw;
