@@ -60,4 +60,8 @@ section p:first-child,
     margin-right: 2em;
     padding: 3em 1em;
   }
+  .timer {
+    height: 60%;
+    width: 40%;
+  }
 }
