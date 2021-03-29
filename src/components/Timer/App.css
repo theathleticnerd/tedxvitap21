@@ -55,13 +55,26 @@ section p:first-child,
   font-size: 3em;
 }
 @media screen and (max-width: 480px) {
+  .timer-container {
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+    display: block;
+  }
   .timer div:last-child {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 8em;
+    margin-right: 0em;
     padding: 3em 1em;
   }
   .timer {
     height: 60%;
     width: 40%;
+  }
+  section p:first-child,
+  .timer div:last-child span {
+    font-size: 1em;
+  }
+  small {
+    font-size: 0.5em;
   }
 }
