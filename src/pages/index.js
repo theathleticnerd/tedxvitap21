@@ -27,10 +27,10 @@ function Home() {
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Hero />
-      <Timer />
-      <Feature />
-      <Tiles />
+      <Hero id="home" />
+      <Timer id="speakers" />
+      <Feature id="about" />
+      <Tiles id="sponsors" />
 
       <Ticket />
 
