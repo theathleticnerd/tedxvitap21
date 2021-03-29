@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
   return (
-    <div classname="about_container">
+    <div id="about" classname="about_container">
       <div className="about_inner_container">
         <div className="left1">
           <p>
@@ -19,7 +19,10 @@ function About() {
         </div>
         <div className="right1">
           <h2 style={{ fontFamily: "Josefin Sans" }}>About TEDx</h2>
-          <h5 style={{ fontFamily: "Josefin Sans" }}> x = independently organized event</h5>
+          <h5 style={{ fontFamily: "Josefin Sans" }}>
+            {" "}
+            x = independently organized event
+          </h5>
         </div>
       </div>
       <div className="about_inner_container">

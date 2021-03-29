@@ -62,9 +62,7 @@ section p:first-child,
     display: block;
   }
   .timer div:last-child {
-    margin-left: 8em;
-    margin-right: 0em;
-    padding: 3em 1em;
+    margin: auto;
   }
   .timer {
     height: 60%;

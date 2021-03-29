@@ -8,6 +8,7 @@ const Ticket = () => {
         <table>
           <th style={{ alignItems: "left" }}>
             <h1
+              class="heading"
               style={{
                 fontFamily: "sans-serif",
                 color: "black",

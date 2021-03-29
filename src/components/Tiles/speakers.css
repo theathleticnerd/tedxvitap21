@@ -27,8 +27,15 @@
   background-color: red;
   text-align: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .wrapper {
     display: block;
+    height: 70%;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+  }
+  .redbox {
+    margin-bottom: 10px;
   }
 }

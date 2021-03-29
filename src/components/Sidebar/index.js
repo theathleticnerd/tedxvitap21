@@ -17,21 +17,21 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="home" onClick={toggle}>
+          <SidebarLink href="/" onClick={toggle}>
             Home
           </SidebarLink>
-          <SidebarLink to="speakers" onClick={toggle}>
+          <SidebarLink href="/speakers" onClick={toggle}>
             Speakers
           </SidebarLink>
-          <SidebarLink to="about" onClick={toggle}>
+          <SidebarLink href="./#about" onClick={toggle}>
             About Us
           </SidebarLink>
-          <SidebarLink to="sponsors" onClick={toggle}>
+          <SidebarLink href="./#sponsors" onClick={toggle}>
             Sponsors
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Tickets</SidebarRoute>
+          <SidebarRoute href="/">Tickets</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

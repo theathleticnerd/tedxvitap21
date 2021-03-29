@@ -26,24 +26,40 @@ const Footer = () => {
               TED<sup style={{ color: "red" }}>X</sup>VITAP
             </SocialLogo>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+              <SocialIconLink
+                href="https://www.facebook.com/"
+                target="_blank"
+                aria-label="Facebook"
+              >
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink
+                href="https://www.instagram.com/"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+              <SocialIconLink
+                href="https://www.youtube.com/"
+                target="_blank"
+                aria-label="Youtube"
+              >
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
-                href="//www.twitter.com/briandesignz"
+                href="//www.twitter.com/"
                 target="_blank"
                 aria-label="Twitter"
                 rel="noopener noreferrer"
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
+              <SocialIconLink
+                href="https://www.linkedin.com/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

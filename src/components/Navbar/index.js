@@ -14,19 +14,6 @@ import {
   NavBtnLink,
 } from "./NavbarElements";
 const Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false);
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true);
-    } else {
-      setScrollNav(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeNav);
-  }, []);
-
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -34,10 +21,12 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <Nav scrollNav={scrollNav}>
+        <Nav>
           <NavbarContainer>
-            <NavLogo to="/" onClick={toggleHome}>
-              TED<sup style={{ color: "red" }}>X</sup>VITAP
+            <NavLogo>
+              <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
+                TED<sup style={{ color: "red" }}>X</sup>VITAP
+              </a>
             </NavLogo>
 
             <MobileIcon onClick={toggle}>
@@ -45,20 +34,22 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks to="home">Home</NavLinks>
+                <NavLinks href="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="/speakers">Speakers</NavLinks>
+                <NavLinks href="/speakers" href="/speakers">
+                  Speakers
+                </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="about">About Us</NavLinks>
+                <NavLinks href="./#about">About Us</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="sponsors">Sponsors</NavLinks>
+                <NavLinks href="#sponsors">Sponsors</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Tickets</NavBtnLink>
+              <NavBtnLink href="/">Tickets</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
