@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./hero.css";
+
 import {
   HeroContainer,
   HeroContent,
@@ -22,7 +22,6 @@ const Hero = () => {
         <HeroItems>
           <HeroP>The</HeroP>
           <HeroH1>Unstoppable.</HeroH1>
-
           <HeroBtn>Register Now</HeroBtn>
         </HeroItems>
       </HeroContent>

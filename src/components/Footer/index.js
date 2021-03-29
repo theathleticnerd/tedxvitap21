@@ -22,8 +22,10 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">
-              TED<sup style={{ color: "red" }}>X</sup>VITAP
+            <SocialLogo href="/">
+              <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
+                TED<sup style={{ color: "red" }}>X</sup>VITAP
+              </a>
             </SocialLogo>
             <SocialIcons>
               <SocialIconLink

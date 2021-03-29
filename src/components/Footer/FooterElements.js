@@ -32,7 +32,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled.a`
   color: #fff;
   justify-self: start;
   cursor: pointer;
