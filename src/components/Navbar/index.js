@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks href="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks href="./#speakers" href="/speakers">
+                <NavLinks href="./#speak" href="/speakers">
                   Speakers
                 </NavLinks>
               </NavItem>

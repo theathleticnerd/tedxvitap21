@@ -4,7 +4,7 @@ import sweet3 from "../../images/sweet-3.jpg";
 const Tile = () => {
   return (
     <div>
-      <div class="whole">
+      <div id="speak" class="whole">
         <br />
         <br /> <br />
         <div class="wrapper">
