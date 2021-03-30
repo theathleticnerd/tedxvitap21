@@ -8,13 +8,13 @@ const Tile = () => {
         <br />
         <br /> <br />
         <div class="wrapper">
-          <div class="box blackbox">Box 1</div>
+          {/*<div class="box blackbox">Box 1</div>*/}
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Andrew Cotton</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -23,7 +23,7 @@ const Tile = () => {
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Sahithi Divi</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -32,7 +32,7 @@ const Tile = () => {
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Vanitha Datla</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -41,13 +41,13 @@ const Tile = () => {
         </div>
         <div class="wrapper">
           <div class="box blackbox">Box 1</div>
-          <div class="box blackbox">Box 2</div>
+          {/*  <div class="box blackbox">Box 2</div>*/}
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Ria Sharma</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -56,7 +56,7 @@ const Tile = () => {
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Janaki Subramaniam</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -65,22 +65,31 @@ const Tile = () => {
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Vinusha MK </h3>
             <br />
             <p>Public Speaker</p>
           </div>
-          <div class="box blackbox">Box 9</div>
+          {/* <div class="box blackbox">Box 9</div>*/}
+          <div class="box whitebox">
+            <img src={sweet3} width="100%" height="100%" />
+          </div>
+          <div class="box redbox">
+            <br /> <br />
+            <h3>Domitilla Quadrelli</h3>
+            <br />
+            <p>Public Speaker</p>
+          </div>
         </div>
         <br />
         <br />
         <br />
-        <div class="wrapper">
+        {/*<div class="wrapper">
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Kakashi Hatake</h3>
+            <h3>Domitilla Quadrelli</h3>
             <br />
             <p>Public Speaker</p>
           </div>
@@ -222,7 +231,7 @@ const Tile = () => {
             <br />
             <p>Public Speaker</p>
           </div>
-        </div>
+        </div>*/}
         <br />
         <br />
       </div>
