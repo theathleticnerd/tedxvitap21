@@ -1,6 +1,10 @@
 import React from "react";
 import "./speakers.css";
 import sweet3 from "../../images/sweet-3.jpg";
+import Ria from "../../images/Ria.jpg";
+import Janaki from "../../images/Janaki.jpg";
+import Vinusha from "../../images/Vinusha.jpg";
+import Vanitha from "../../images/Vanitha1.jpg";
 const Tile = () => {
   return (
     <div>
@@ -16,7 +20,7 @@ const Tile = () => {
             <br /> <br />
             <h3>Andrew Cotton</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Redbull Athlete, Global speaker</p>
           </div>
           <div class="box whitebox">
             <img src={sweet3} width="100%" height="100%" />
@@ -25,16 +29,16 @@ const Tile = () => {
             <br /> <br />
             <h3>Sahithi Divi</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Founder of ImpactScientist</p>
           </div>
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Vanitha} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
             <h3>Vanitha Datla</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Vice Chairperson & Managing Director at Elico Ltd</p>
           </div>
           <div class="box blackbox">Box 8</div>
           <div class="box blackbox">Box 9</div>
@@ -43,16 +47,16 @@ const Tile = () => {
           <div class="box blackbox">Box 1</div>
           {/*  <div class="box blackbox">Box 2</div>*/}
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Ria} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
-            <h3>Ria Sharma</h3>
+            <h3>Mx. Ria Sharma</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Co founder of The Jimme Foundation </p>
           </div>
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Janaki} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
@@ -61,13 +65,13 @@ const Tile = () => {
             <p>Public Speaker</p>
           </div>
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Vinusha} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
             <h3>Vinusha MK </h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Founder & Chief Baking Officer at Four Seasons Pastry </p>
           </div>
           {/* <div class="box blackbox">Box 9</div>*/}
           <div class="box whitebox">
@@ -77,7 +81,7 @@ const Tile = () => {
             <br /> <br />
             <h3>Domitilla Quadrelli</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Community Manager & WMBootcamp Founder</p>
           </div>
         </div>
         <br />
