@@ -4,7 +4,7 @@ import sweet3 from "../../images/sweet-3.jpg";
 import Ria from "../../images/Ria.jpg";
 import Janaki from "../../images/Janaki.jpg";
 import Vinusha from "../../images/Vinusha.jpg";
-import Vanitha from "../../images/Vanitha1.jpg";
+import Vanitha from "../../images/Vanitha.jpg";
 const Tile = () => {
   return (
     <div>
