@@ -1,18 +1,19 @@
 import React from "react";
 import "./App.css";
+import { Switch , Route, Redirect, BrowserRouter } from "react-router-dom";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";
 import SpeakerPage from "./pages/speakers";
 function App() {
   return (
     <div className="App">
-    <Router>
+    <BrowserRouter>
       <Switch>
-        <Route path="/" component={Home} exact />
-        <Route path="/speakers" component={SpeakerPage} exact />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/speakers" component={SpeakerPage} />
+        <Redirect to= "/" />
       </Switch>
-    </Router>
+    </BrowserRouter>
     </div>
   );
 }

@@ -20,8 +20,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink href="/" onClick={toggle}>
             Home
           </SidebarLink>
-          <SidebarLink href="./#speak" onClick={toggle}>
-            Speakers
+          <SidebarLink href="./speakers" onClick={toggle}>
+            Speaker
           </SidebarLink>
           <SidebarLink href="./#about" onClick={toggle}>
             About Us
