@@ -65,7 +65,7 @@ const Tile = () => {
             <br /> <br />
             <h3>Janaki Subramaniam</h3>
             <br />
-            <p>Public Speaker</p>
+            <p>Pilot @ IndiGo</p>
           </div>
           <div class="box whitebox">
             <img src={Vinusha} width="100%" height="100%" />
