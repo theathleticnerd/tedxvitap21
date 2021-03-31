@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import {
   Nav,
   NavbarContainer,
@@ -37,7 +38,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks href="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks href="./#speak">Speakers</NavLinks>
+                <NavLinks><NavLink exact to ="/speakers">Speakers</NavLink></NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks href="./#about">About Us</NavLinks>
