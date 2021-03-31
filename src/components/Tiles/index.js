@@ -5,6 +5,9 @@ import Ria from "../../images/Ria.jpg";
 import Janaki from "../../images/Janaki.jpg";
 import Vinusha from "../../images/Vinusha.jpg";
 import Vanitha from "../../images/Vanitha.jpg";
+import Domitilla from "../../images/Domitilla.jpg";
+import Andrew from "../../images/Andrew.jpg";
+import Sahithi from "../../images/Sahithi.jpg";
 const Tile = () => {
   return (
     <div>
@@ -14,7 +17,7 @@ const Tile = () => {
         <div class="wrapper">
           {/*<div class="box blackbox">Box 1</div>*/}
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Andrew} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
@@ -23,7 +26,7 @@ const Tile = () => {
             <p>Redbull Athlete, Global speaker</p>
           </div>
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Sahithi} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />
@@ -75,7 +78,7 @@ const Tile = () => {
           </div>
           {/* <div class="box blackbox">Box 9</div>*/}
           <div class="box whitebox">
-            <img src={sweet3} width="100%" height="100%" />
+            <img src={Domitilla} width="100%" height="100%" />
           </div>
           <div class="box redbox">
             <br /> <br />

@@ -1,34 +1,30 @@
 [
-    {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 1"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 2"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 3"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 4"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 5"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 6"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 7"
-      },
-      {
-        "imgurl":"https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-        "name":"Member 8"
-      }
+  {
+    "imgurl": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-6vg4o5ArPms%2FTm270SSL4xI%2FAAAAAAAAAQg%2FcFnCJs_aAZA%2Fs1600%2Fsasuke_vector_by_gerbilbob.jpg&f=1&nofb=1",
+    "name": "Andrew Cotton"
+  },
+  {
+    "imgurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.AA8y9JHY_Z-c1addXq1k_AAAAA%26pid%3DApi&f=1",
+    "name": "Sahithi Divi"
+  },
+  {
+    "imgurl": "https://distracted-torvalds-73a25d.netlify.app/static/media/Vanitha.fb7c8dab.jpg",
+    "name": "Vanitha Datla"
+  },
+  {
+    "imgurl": "https://distracted-torvalds-73a25d.netlify.app/static/media/Ria.b6bbed3e.jpg",
+    "name": "Mx. Ria Sharma"
+  },
+  {
+    "imgurl": "https://distracted-torvalds-73a25d.netlify.app/static/media/Janaki.f17e31b6.jpg",
+    "name": "Janaki Subramaniam"
+  },
+  {
+    "imgurl": "https://distracted-torvalds-73a25d.netlify.app/static/media/Vinusha.1bcced2d.jpg",
+    "name": "Vinusha MK"
+  },
+  {
+    "imgurl": "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    "name": "Domitilla Quadrelli"
+  }
 ]
