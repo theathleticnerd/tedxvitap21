@@ -6,10 +6,20 @@ function CardContainer() {
   const [cards, setcard] = useState("");
 
   return (
-    <div claasName="cardcontainer">
+    <div>
       <div className="main">
         <br />
         <br />
+        <h3
+          style={{
+            backgroundColor: "#000",
+            margin: "0",
+            padding: "0px 0px 0px 100px",
+          }}
+        >
+          Speakers:
+        </h3>
+
         <div className="flex_container">
           {Team1.map((card) => (
             <Card imgurl={card.imgurl} name={card.name} />
