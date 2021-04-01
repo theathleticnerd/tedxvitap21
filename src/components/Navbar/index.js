@@ -61,9 +61,9 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks href="./#about">About Us</NavLinks>
               </NavItem>
-              {/*<NavItem>
-                <NavLinks href="#sponsors">Sponsors</NavLinks>
-              </NavItem>*/}
+              <NavItem>
+                <NavLinks href="/team">Team</NavLinks>
+              </NavItem>
             </NavMenu>
             <NavBtn>
               <NavBtnLink href="/">Tickets</NavBtnLink>

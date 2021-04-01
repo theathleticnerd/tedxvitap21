@@ -15,7 +15,8 @@ import Ticket from "../components/Ticket";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Tiles from "../components/Tiles";
-
+import Team from "../components/Team2";
+import Speakers from "../components/Speakers";
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,10 +29,9 @@ function Home() {
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
-      <Timer />
+      <Timer style={{ margin: "0" }} />
 
-      <Tiles id="sponsors" />
-
+      <Speakers style={{ margin: "0" }} />
       <Feature />
 
       <About />

@@ -9,11 +9,13 @@
 .wrapper {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(100px);
   justify-items: stretch;
 }
 .box1 {
   grid-column: 1/2;
+  height: 100px;
+  width: 100px;
 }
 .whitebox {
   background-color: #fff;
@@ -21,12 +23,14 @@
 
 .blackbox {
   background-color: #000;
+  color: #000;
 }
 .redbox {
   color: #fff;
   background-color: red;
   text-align: center;
 }
+
 @media screen and (max-width: 768px) {
   .wrapper {
     display: block;
