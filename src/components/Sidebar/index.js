@@ -26,8 +26,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink href="./#about" onClick={toggle}>
             About Us
           </SidebarLink>
-          <SidebarLink href="./#sponsors" onClick={toggle}>
-            Sponsors
+          <SidebarLink href="./team" onClick={toggle}>
+            Team
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

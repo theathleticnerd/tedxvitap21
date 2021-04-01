@@ -31,14 +31,14 @@ const Speakers = () => {
               <img style={{ width: "200px", height: "200px" }} src={Vanitha} />
               <br />
               <h2>Vanitha Datla</h2>
-              <p>Vice Chairperson & Managing Director at Elico Ltd</p>
+              <p>Vice Chairperson at Elico Ltd</p>
             </div>
 
             <div className="inside">
               <img style={{ width: "200px", height: "200px" }} src={Ria} />
               <br />
               <h2>Mx. Ria Sharma</h2>
-              <p>Co founder of The Jimme Foundation </p>
+              <p>Co-Founder of The Jimme Foundation </p>
             </div>
 
             <div className="inside">
@@ -52,7 +52,7 @@ const Speakers = () => {
               <img style={{ width: "200px", height: "200px" }} src={Vinusha} />
               <br />
               <h2>Vinusha MK </h2>
-              <p>Founder & Chief Baking Officer at Four Seasons Pastry </p>
+              <p>Founder - Four Seasons Pastry </p>
             </div>
             <div className="inside" />
             <div className="inside">
