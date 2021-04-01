@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import CardContainer from "../components/Teams/CardContainer";
 import Team from "../components/Team2";
 import { GlobalStyle } from "../globalStyles";
+import TeamsContainer from "../components/TeamsPage/TeamsContainer"
 
 const TeamPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,8 @@ const TeamPage = () => {
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Team />
+      {/* <Team /> */}
+      <TeamsContainer/>
       <Footer />
     </div>
   );
