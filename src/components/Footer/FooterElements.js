@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+import a from "../../images/a.jpeg";
 export const FooterContainer = styled.footer`
   background-color: maroon;
+  background-image: url("https://i.postimg.cc/4NQD2zGW/a.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 export const FooterWrap = styled.div`

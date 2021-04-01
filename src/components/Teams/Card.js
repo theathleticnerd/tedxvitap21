@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 
-function card({ imgurl, name }) {
+function card({ imgurl, name, profession }) {
   return (
     <div>
       <div className="container">
@@ -11,6 +11,7 @@ function card({ imgurl, name }) {
           alt={name}
         />
         <p style={{ color: "#fff" }}>{name}</p>
+        <h1 style={{ color: "#fff" }}>{profession}</h1>
       </div>
     </div>
   );

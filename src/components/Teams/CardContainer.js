@@ -10,19 +10,25 @@ function CardContainer() {
       <div className="main">
         <br />
         <br />
+
         <h3
           style={{
+            textAlign: "center",
             backgroundColor: "#000",
             margin: "0",
-            padding: "0px 0px 0px 100px",
+            paddingTop: "10px",
           }}
         >
-          Speakers:
+          Speakers
         </h3>
 
         <div className="flex_container">
           {Team1.map((card) => (
-            <Card imgurl={card.imgurl} name={card.name} />
+            <Card
+              imgurl={card.imgurl}
+              name={card.name}
+              profession={card.profession}
+            />
           ))}
         </div>
       </div>

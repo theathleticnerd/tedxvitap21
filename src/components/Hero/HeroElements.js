@@ -40,7 +40,7 @@ export const HeroItems = styled.div`
 
 export const HeroH1 = styled.h1`
   font-family: sans-serif;
-  font-size: clamp(2.5rem, 10vw, 5rem);
+  font-size: clamp(4rem, 10vw, 5rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #8b0000;
   letter-spacing: 3px;

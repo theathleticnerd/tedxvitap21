@@ -13,7 +13,9 @@ const Tile = () => {
     <div>
       <div id="speak" class="whole">
         <br />
-        <br /> <br />
+        <br />
+        <h1 style={{ color: "#fff", textAlign: "center" }}>Speakers</h1>
+        <br />
         <div class="wrapper">
           {/*<div class="box blackbox">Box 1</div>*/}
           <div class="box whitebox">
@@ -74,7 +76,7 @@ const Tile = () => {
             <br /> <br />
             <h3>Vinusha MK </h3>
             <br />
-            <p>Founder & Chief Baking Officer at Four Seasons Pastry </p>
+            <p>Chief Baking Officer at Four Seasons Pastry </p>
           </div>
           {/* <div class="box blackbox">Box 9</div>*/}
           <div class="box whitebox">
@@ -84,11 +86,15 @@ const Tile = () => {
             <br /> <br />
             <h3>Domitilla Quadrelli</h3>
             <br />
-            <p>Community Manager & WMBootcamp Founder</p>
+            <p>WMBootcamp Founder</p>
           </div>
         </div>
         <br />
         <br />
+        <br />
+        <h1 style={{ color: "#fff", textAlign: "center" }}>
+          Previous Year's Speakers
+        </h1>
         <br />
         {/*<div class="wrapper">
           <div class="box whitebox">

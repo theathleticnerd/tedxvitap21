@@ -21,7 +21,7 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           <HeroP>The</HeroP>
-          <HeroH1>Unstoppable.</HeroH1>
+          <HeroH1>Unstoppable </HeroH1>
           <HeroBtn>Register Now</HeroBtn>
         </HeroItems>
       </HeroContent>

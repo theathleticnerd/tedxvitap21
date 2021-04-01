@@ -3,6 +3,8 @@ import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import logo from "../../images/tedlogo.jpg";
+import Ria from "../../images/Ria.jpg";
 import {
   Nav,
   NavbarContainer,
@@ -13,7 +15,15 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  SocialIconLink,
 } from "./NavbarElements";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from "react-icons/fa";
 const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -24,11 +34,18 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo>
-              <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
-                TED<sup style={{ color: "red" }}>X</sup>VITAP
-              </a>
-            </NavLogo>
+            <a href="/" style={{ marginTop: "25px" }}>
+              {" "}
+              <img
+                style={{
+                  width: "200px",
+                  height: "50px",
+
+                  margin: "0px",
+                }}
+                src={logo}
+              />
+            </a>
 
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -38,14 +55,15 @@ const Navbar = ({ toggle }) => {
                 <NavLinks href="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks  href="./speakers">Speakers</NavLinks> </NavItem>
-                {/* <NavLinks><NavLink to ="/speakers">Speakers</NavLink></NavLinks> </NavItem> */}
+                <NavLinks href="./speakers">Speakers</NavLinks>{" "}
+              </NavItem>
+              {/* <NavLinks><NavLink to ="/speakers">Speakers</NavLink></NavLinks> </NavItem> */}
               <NavItem>
                 <NavLinks href="./#about">About Us</NavLinks>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <NavLinks href="#sponsors">Sponsors</NavLinks>
-              </NavItem>
+              </NavItem>*/}
             </NavMenu>
             <NavBtn>
               <NavBtnLink href="/">Tickets</NavBtnLink>
