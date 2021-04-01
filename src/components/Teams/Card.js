@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 
-function card({ imgurl, name, profession }) {
+function card({ imgurl, name, profession}) {
   return (
     <div>
       <div className="container">

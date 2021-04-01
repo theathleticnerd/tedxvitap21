@@ -27,13 +27,13 @@ export const TicketButton = styled.button`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;
-  background: #e31837;
+  background: #E62B1E;
   color: #fff;
   transition: 0.2s ease-out;
 
   &:hover {
-    color: #fff;
-    background: #8b0000;
+    color: #E62B1E;
+    background: #fff;
     transition: 0.2s ease-out;
     cursor: pointer;
   }

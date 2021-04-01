@@ -15,7 +15,7 @@ function CardContainer() {
           style={{
             textAlign: "center",
             backgroundColor: "#000",
-            margin: "0",
+            margin: "30px",
             paddingTop: "10px",
           }}
         >

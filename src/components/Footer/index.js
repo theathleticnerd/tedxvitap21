@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../images/tedlogo.jpg";
 import {
   FaFacebook,
   FaInstagram,
@@ -24,7 +25,15 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo href="/">
               <a href="/" style={{ textDecoration: "none", color: "#fff" }}>
-                TED<sup style={{ color: "red" }}>X</sup>VITAP
+              <img
+                style={{
+                  width: "200px",
+                  height: "50px",
+
+                  margin: "0px",
+                }}
+                src={logo}
+              />
               </a>
             </SocialLogo>
             <SocialIcons>
