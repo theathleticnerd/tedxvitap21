@@ -42,8 +42,12 @@ export const HeroH1 = styled.h1`
   font-family: sans-serif;
   font-size: clamp(4rem, 10vw, 5rem);
   margin-bottom: 1rem;
-  box-shadow: 3px 5px #E62B1E;
+  box-shadow: 3px 5px #e62b1e;
   letter-spacing: 3px;
+
+  @media screen and (max-width: 650px) {
+    font-size: clamp(2.5rem, 10vw, 5rem);
+  }
 `;
 
 export const HeroP = styled.p`
@@ -55,15 +59,15 @@ export const HeroBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
-  background: #E62B1E;
+  background: #e62b1e;
   color: #fff;
   transition: 0.2s ease-out;
-  outline:none;
+  outline: none;
 
   &:hover {
     background: #fff;
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #E62B1E;
+    color: #e62b1e;
   }
 `;
