@@ -9,7 +9,10 @@ const Feature = () => {
         “The important thing is not to stop questioning. Curiosity has its own
         reason for existing.” <br />- Albert Einstein
       </p>
-      <a href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+      <a
+        href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645"
+        target="_blank"
+      >
         <FeatureButton>Tickets</FeatureButton>
       </a>
     </FeatureContainer>

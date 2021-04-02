@@ -31,7 +31,10 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>*/}
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+          <SidebarRoute
+            target="_blank"
+            href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645"
+          >
             Tickets
           </SidebarRoute>
         </SideBtnWrap>

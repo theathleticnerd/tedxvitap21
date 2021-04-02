@@ -66,7 +66,10 @@ const Navbar = ({ toggle }) => {
               </NavItem>*/}
             </NavMenu>
             <NavBtn>
-              <NavBtnLink href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+              <NavBtnLink
+                target="_blank"
+                href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645"
+              >
                 Tickets
               </NavBtnLink>
             </NavBtn>
