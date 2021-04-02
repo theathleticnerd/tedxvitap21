@@ -22,7 +22,9 @@ const Hero = () => {
         <HeroItems>
           <HeroP>The</HeroP>
           <HeroH1>Unstoppable </HeroH1>
-          <HeroBtn>Register Now</HeroBtn>
+          <a href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+            <HeroBtn>Register Now</HeroBtn>
+          </a>
         </HeroItems>
       </HeroContent>
     </HeroContainer>

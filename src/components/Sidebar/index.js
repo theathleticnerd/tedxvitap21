@@ -20,18 +20,20 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink href="/" onClick={toggle}>
             Home
           </SidebarLink>
-          <SidebarLink href="./speakers" onClick={toggle}>
+          <SidebarLink href="./#speakers" onClick={toggle}>
             Speaker
           </SidebarLink>
           <SidebarLink href="./#about" onClick={toggle}>
             About Us
           </SidebarLink>
-          <SidebarLink href="./team" onClick={toggle}>
+          {/*<SidebarLink href="./team" onClick={toggle}>
             Team
-          </SidebarLink>
+          </SidebarLink>*/}
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute href="/">Tickets</SidebarRoute>
+          <SidebarRoute href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+            Tickets
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

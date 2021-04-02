@@ -55,18 +55,20 @@ const Navbar = ({ toggle }) => {
                 <NavLinks href="/">Home</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks href="./speakers">Speakers</NavLinks>{" "}
+                <NavLinks href="./#speakers">Speakers</NavLinks>{" "}
               </NavItem>
               {/* <NavLinks><NavLink to ="/speakers">Speakers</NavLink></NavLinks> </NavItem> */}
               <NavItem>
                 <NavLinks href="./#about">About Us</NavLinks>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <NavLinks href="/team">Team</NavLinks>
-              </NavItem>
+              </NavItem>*/}
             </NavMenu>
             <NavBtn>
-              <NavBtnLink href="/">Tickets</NavBtnLink>
+              <NavBtnLink href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645">
+                Tickets
+              </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

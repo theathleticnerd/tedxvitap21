@@ -16,10 +16,8 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Tiles from "../components/Tiles";
 import Team from "../components/Team2";
-import Speakers from "../components/Speakers";
 
-
-import CardComponent from "../components/Teams/CardContainer"
+import CardComponent from "../components/Teams/CardContainer";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,8 +34,7 @@ function Home() {
       <Timer style={{ margin: "0" }} />
 
       {/* <Speakers style={{ margin: "0" }} /> */}
-      <CardComponent/>
-
+      <CardComponent />
 
       <Feature />
 
