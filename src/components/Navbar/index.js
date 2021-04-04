@@ -70,7 +70,7 @@ const Navbar = ({ toggle }) => {
                 target="_blank"
                 href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645"
               >
-                Tickets
+                Register
               </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
