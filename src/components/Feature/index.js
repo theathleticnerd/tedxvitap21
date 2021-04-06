@@ -13,7 +13,7 @@ const Feature = () => {
         href="https://www.eventbrite.com/e/tedxvitap-2021-the-unstoppable-tickets-149289744645"
         target="_blank"
       >
-        <FeatureButton>Tickets</FeatureButton>
+        <FeatureButton>Register</FeatureButton>
       </a>
     </FeatureContainer>
   );

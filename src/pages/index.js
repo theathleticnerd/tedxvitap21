@@ -31,7 +31,11 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
       <Timer style={{ margin: "0" }} />
-
+      <img
+        className="image1"
+        style={{ margin: "0 100px" }}
+        src="https://raw.githubusercontent.com/theathleticnerd/tedxpics/main/1.png"
+      />
       {/* <Speakers style={{ margin: "0" }} /> */}
       <CardComponent />
 
