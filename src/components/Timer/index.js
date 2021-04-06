@@ -9,6 +9,10 @@ const Timer = () => {
 
   let interval = useRef();
 
+  const resolveZero = (data) => {
+    return data > 9 ? `${data}` : `0${data}`;
+  };
+
   const startTimer = () => {
     const countdownDate = new Date("April 10, 2021 00:00:00").getTime();
 
@@ -27,10 +31,10 @@ const Timer = () => {
         clearInterval(interval.current);
       } else {
         //update timer
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-        setTimerSeconds(seconds);
+        setTimerDays(resolveZero(days));
+        setTimerHours(resolveZero(hours));
+        setTimerMinutes(resolveZero(minutes));
+        setTimerSeconds(resolveZero(seconds));
       }
     }, 1000);
   };

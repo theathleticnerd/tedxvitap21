@@ -3,6 +3,7 @@ import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import logo from "../../images/tedlogo.jpg";
 import Ria from "../../images/Ria.jpg";
 import {
@@ -24,6 +25,21 @@ import {
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
+
+const navStyle = {
+  color: "#fff",
+  display: "flex",
+  alignItems: "center",
+  textDecoration: "none",
+  padding: "0 1rem",
+  height: "100%",
+  cursor: "pointer",
+
+  "&.active": {
+    borderBottom: "3px solid #01bf71",
+  },
+};
+
 const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -52,14 +68,24 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
             <NavMenu>
               <NavItem>
-                <NavLinks href="/">Home</NavLinks>
+                <NavLink to="/" exact style={navStyle}>
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLinks href="./#speakers">Speakers</NavLinks>{" "}
+                <NavLink to="/speakers" exact style={navStyle}>
+                  Speakers
+                </NavLink>{" "}
               </NavItem>
-              {/* <NavLinks><NavLink to ="/speakers">Speakers</NavLink></NavLinks> </NavItem> */}
               <NavItem>
-                <NavLinks href="./#about">About Us</NavLinks>
+                <NavLink to="/team" exact style={navStyle}>
+                  Team
+                </NavLink>{" "}
+              </NavItem>
+              <NavItem>
+                <HashLink to="/#about" style={navStyle}>
+                  About Us
+                </HashLink>
               </NavItem>
               {/*<NavItem>
                 <NavLinks href="/team">Team</NavLinks>
