@@ -3,8 +3,8 @@ import { useState } from "react";
 import coreteam from "./coreteam.json";
 import designteam from "./designteam.json";
 import contentteam from "./contentteam.json";
-import contingencyteam from "./contingencyteam.json";
-import marketingteam from "./marketingteam.json";
+import prteam from "./prteam.json";
+import digitalmarketingteam from "./digitalmarketingteam.json";
 import webteam from "./webteam.json";
 import Card from "../Teams/Card";
 import "../Teams/card_container.css";
@@ -119,11 +119,11 @@ function TeamsContainer() {
             fontSize: "1.5em",
           }}
         >
-          Contingency Team
+          PR Team
         </h3>
 
         <div className="flex_container">
-          {contingencyteam.map((card) => (
+          {prteam.map((card) => (
             <Card imgurl={card.imgurl} name={card.name} />
           ))}
         </div>
@@ -152,7 +152,7 @@ function TeamsContainer() {
         </h3>
 
         <div className="flex_container">
-          {marketingteam.map((card) => (
+          {digitalmarketingteam.map((card) => (
             <Card imgurl={card.imgurl} name={card.name} />
           ))}
         </div>
