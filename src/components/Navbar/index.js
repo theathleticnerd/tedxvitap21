@@ -89,7 +89,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLink to="/glimpse" exact style={navStyle}>
-                  Glimpse of TED<span style={{ color: "red" }}>x</span>VITAP
+                  Glimpses of TED<span style={{ color: "red" }}>x</span>VITAP
                 </NavLink>{" "}
               </NavItem>
             </NavMenu>
