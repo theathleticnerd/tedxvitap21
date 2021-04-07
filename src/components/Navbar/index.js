@@ -87,9 +87,11 @@ const Navbar = ({ toggle }) => {
                   About Us
                 </HashLink>
               </NavItem>
-              {/*<NavItem>
-                <NavLinks href="/team">Team</NavLinks>
-              </NavItem>*/}
+              <NavItem>
+                <NavLink to="/glimpse" exact style={navStyle}>
+                  Glimpse of TED<span style={{ color: "red" }}>x</span>VITAP
+                </NavLink>{" "}
+              </NavItem>
             </NavMenu>
             <NavBtn>
               <NavBtnLink

@@ -31,11 +31,13 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Hero />
       <Timer style={{ margin: "0" }} />
-      <img
-        className="image1"
-        style={{ margin: "0 100px" }}
-        src="https://raw.githubusercontent.com/theathleticnerd/tedxpics/main/1.png"
-      />
+      <div style={{ textAlign: "center" }}>
+        <h3 style={{ fontFamily: "sans-serif", fontSize: "3rem" }}>Schedule</h3>
+        <img
+          className="image1"
+          src="https://raw.githubusercontent.com/theathleticnerd/tedxpics/main/1.png"
+        />
+      </div>
       {/* <Speakers style={{ margin: "0" }} /> */}
       <CardComponent />
 
