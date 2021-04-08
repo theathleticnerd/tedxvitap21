@@ -29,6 +29,7 @@ function Home() {
       <div style={{ textAlign: "center" }}>
         <h3 style={{ fontFamily: "sans-serif", fontSize: "3rem" }}>Schedule</h3>
         <img
+          id="schedule"
           className="image1"
           src="https://raw.githubusercontent.com/theathleticnerd/tedxpics/main/1.png"
         />

@@ -82,15 +82,21 @@ const Navbar = ({ toggle }) => {
                   Team
                 </NavLink>{" "}
               </NavItem>
+
               <NavItem>
-                <HashLink to="/#about" style={navStyle}>
-                  About Us
-                </HashLink>
+                <NavLink to="/schedule" exact style={navStyle}>
+                  Schedule
+                </NavLink>{" "}
               </NavItem>
               <NavItem>
                 <NavLink to="/glimpse" exact style={navStyle}>
                   Glimpses of TED<span style={{ color: "red" }}>x</span>VITAP
                 </NavLink>{" "}
+              </NavItem>
+              <NavItem>
+                <HashLink to="/#about" style={navStyle}>
+                  About Us
+                </HashLink>
               </NavItem>
             </NavMenu>
             <NavBtn>

@@ -46,6 +46,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <NavLink to="/team" exact onClick={toggle} style={navStyle}>
             Team
           </NavLink>
+          <NavLink to="/schedule" exact onClick={toggle} style={navStyle}>
+            Schedule
+          </NavLink>
           <NavLink to="/glimpse" exact onClick={toggle} style={navStyle}>
             Glimpses of TED<sup style={{ color: "red" }}>x</sup>VITAP
           </NavLink>
