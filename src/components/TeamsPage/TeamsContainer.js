@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import facultyteam from "./facultyteam.json";
 import coreteam from "./coreteam.json";
 import designteam from "./designteam.json";
 import contentteam from "./contentteam.json";
@@ -14,6 +15,35 @@ function TeamsContainer() {
 
   return (
     <div>
+      <div
+        className="main"
+        style={{
+          paddingBottom: "0px",
+          paddingTop: "100px",
+        }}
+      >
+        <br />
+        <br />
+
+        <h3
+          style={{
+            textAlign: "center",
+            backgroundColor: "#000",
+            margin: "30px",
+            paddingTop: "10px",
+            fontSize: "1.5em",
+          }}
+        >
+          Faculty Coordinators
+        </h3>
+
+        <div className="flex_container">
+          {facultyteam.map((card) => (
+            <Card imgurl={card.imgurl} name={card.name} />
+          ))}
+        </div>
+      </div>
+
       <div
         className="main"
         style={{
